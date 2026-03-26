@@ -38,11 +38,16 @@ Read the full story: **[bubs-ai.vercel.app](https://bubs-ai.vercel.app)**
 
 5. **Start using it.** In your next session, try: "Run my morning brief" or "What's on my calendar today and what should I know?"
 
+### Optimizely employees
+
+If you work at Optimizely, use [`bootstrap-optimizely.md`](bootstrap-optimizely.md) instead. It skips the "what tools do you use?" interview and walks you straight through connecting to the exact same stack — Outlook/Teams, Salesforce, Coda, ClickUp, and Optimizely Analytics. After setup, you'll be able to run email triage, Teams monitoring, meeting prep with transcript history, account deep dives, and pipeline tracking out of the box.
+
 ## What's in the box
 
 ```
 shafos/
-├── bootstrap.md              # The prompt that builds your system
+├── bootstrap.md              # The prompt that builds your system (generic)
+├── bootstrap-optimizely.md   # Optimizely-specific version — same tech stack, pre-wired
 ├── templates/
 │   ├── CLAUDE.md             # Master config — personality, principles, integrations
 │   ├── context/
